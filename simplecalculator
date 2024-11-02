@@ -1,0 +1,31 @@
+while(True):
+    a=int(input('''
+                    1.Addition
+                    2.Substraction
+                    3.Multiplication
+                    4.Division
+                    5.exit
+                    Enter your choice:'''))
+    if a==1:
+        from add import add
+        add=add()
+        print(add)
+    elif a==2:
+        from sub import sub
+        sub=sub()
+        print(sub)
+    elif a==3:
+        from mult import mult
+        mult=mult()
+        print(mult)
+    elif a==4:
+        from div import div
+        div=div()
+        print(div)
+    elif a==5:
+        break
+    else:
+        print("invalid choice")
+        
+        
+        
